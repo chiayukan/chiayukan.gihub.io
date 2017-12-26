@@ -10,7 +10,7 @@
 /* 往下開始nav */
 
 .navbar{
-    height: 90px;
+    height: 100px;
 } 
   
 .container{
@@ -40,12 +40,12 @@
 .navtop-link {
     color: #fff;
     font-size: 14px;
-    text-decoration: none;
+    text-decoration: none; /* 超連結去底線 */
     padding-right: 15px;
 }
 
 .navtop-link:hover{
-    /* 當滑鼠經過時，字顏色改變 */
+
     color: rgb(202, 199, 199);  
 }
 
@@ -63,7 +63,7 @@
     font-size: 14px;
     font-weight:lighter;
     border: 1px solid #fff;
-    border-radius: 50px;
+    border-radius: 50px;  /*圓框*/
     padding: 6px 25px;
     text-decoration: none;
     margin-right: 8px;
@@ -96,11 +96,11 @@
 }
 
 .try30days{
-    padding-bottom: 20px;
-    text-align: center;
     color: #adadad;
     font-size: 26px;
     font-weight: lighter;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 .trynow-btn-outer{
@@ -109,9 +109,6 @@
 }
 
 .trynow-btn{
-    margin-left: auto;
-    margin-right: auto;
-    text-decoration: none;
     color: #FFF;
     font-size: 14px;
     font-weight: lighter;
@@ -119,14 +116,17 @@
     border: 1px solid #00bbcc;
     padding: 6px 36px;
     border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
 }
 
 .trynow-btn:hover{
-    background-color: #3b434b;
-    border: 1px solid #fff;
     color: #FFF;
     font-size: 14px;
     font-weight: lighter;
+    background-color: #3b434b;
+    border: 1px solid #fff;
     padding: 6px 36px;
     border-radius: 50px;
 }
